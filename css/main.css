@@ -96,23 +96,57 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   /* Start Global Classes */
 
+   /* End Global Classes */
 
+   /* Start Common Rules*/
+   body {
+     background-image: url("../img/backgroundimg.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+   }
 
+   h1, h2 {
+     font-family: 'Pacifico', cursive;
+   }
 
+   h3, p, a {
+     font-family: 'Nunito', sans-serif;
+   }
+   /* End Common Rules */
 
+   /* Start Header Style */
 
+   /* End Header Style */
 
+   /* Start Footer Style */
 
+   /* End Footer Style */
 
+   /* Start Index Main Style */
 
+   /* End Index Main Style */
 
+   /* Start About Main Style */
 
+   /* End About Main Style */
 
+   /* Start Admin Main Style */
 
+   /* End Admin Main Style */
 
+   /* Start Article Main Style */
 
+   /* End Article Main Style */
 
+   /* Start Contact Main Style */
+
+   /* End Contact Main Style */
+
+   /* Start Login Main Style */
+
+   /* End Login Main Style */
 /* ==========================================================================
    Helper classes
    ========================================================================== */
