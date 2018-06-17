@@ -29,7 +29,6 @@
   -->
   <header>
     <h1>Suppedi</h1>
-  <!-- Navigation Bar -->
     <nav>
       <ul>
         <li>
@@ -44,7 +43,7 @@
           </div>
         </li>
         <li>
-          <a href="index.html"><i class="fas fa-home"></i></a>
+         <a href="index.html"><i class="fas fa-home"></i></a>
         </li>
         <li>
           <div class="search-container">
@@ -62,7 +61,7 @@
         </li>
       </ul>
     </nav>
-</header>
+  </header>
   <!--
   ********** End Header **********
   -->
@@ -71,39 +70,7 @@
   ********** Start Main **********
   -->
   <main>
-    <section class="presentation">
-      <h2>Bienvenue sur le site de Suppedi</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in purus nulla. Cras in posuere ipsum. Vivamus et semper augue, non euismod nisi.</p>
-    </section>
-    <section class="bestsellers">
-      <h2>Nos Bestsellers</h2>
-      <div class="bestsellersdisplay">
-      <a href="shop.html">
-        <img src="img/bodypositivequeen.jpeg" alt="totebag body positive queen"/>
-      </a>
-      <a href="shop.html">
-        <img src="img/boite-bijou-casier-rangement.png" alt="boite bijoux casier rangement"/>
-      </a>
-      <a href="shop.html">
-        <img src="img/cosmetic-case-diamond-blanc.jpeg" alt="boite rangement capitons blanc"/>
-      </a>
-      <a href="shop.html">
-        <img src="img/makeup-rangement.jpg" alt="rangement makeup impression 3D"/>
-      </a>
-    </section>
-    <section class="articles">
-      <h2>News & Articles</h2>
-      <article>
-        <h3>Lorem Ipsum</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in purus nulla. Cras in posuere ipsum. Vivamus et semper augue, non euismod nisi. Etiam venenatis erat ultricies mi pellentesque blandit. Donec vitae magna lectus. Quisque euismod nisi sed urna molestie gravida. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
-        <a href="#"> Lire plus &gt&gt </a></p>
-      </article>
-      <article>
-        <h3>Lorem Ipsum</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in purus nulla. Cras in posuere ipsum. Vivamus et semper augue, non euismod nisi. Etiam venenatis erat ultricies mi pellentesque blandit. Donec vitae magna lectus. Quisque euismod nisi sed urna molestie gravida. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
-        <a href="#"> Lire plus &gt&gt </a></p>
-      </article>
-    </section>
+
   </main>
   <!--
   ********** End Main **********
@@ -134,7 +101,9 @@
   ********** End Footer **********
   -->
 
-  <!-- Script -->
+  <!--
+  ********** Script **********
+  -->
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
@@ -147,6 +116,30 @@
     ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+
+  <!-- Mobile Navigation Bar -->
+  <script>
+    /* When the user clicks on the button,
+  toggle between hiding and showing the dropdown content */
+  function myFunction() {
+      document.getElementById("responsivebar").classList.toggle("show");
+  }
+
+  // Close the dropdown if the user clicks outside of it
+  window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+
+      var dropdowns = document.getElementsByClassName("responsive_menu");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
+      }
+    }
+  }
+  </script>
 </body>
 
 </html>
