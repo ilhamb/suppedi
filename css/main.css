@@ -105,12 +105,28 @@ textarea {
 
    }
 
+   .send-btn {
+     background-color: white;
+     color: #6B686C;
+     padding: 14px 20px;
+     margin: 8px 0;
+     border: 1px solid #6B686C;
+     cursor: pointer;
+     width: 10px 20px;
+   }
+
    .login {
 
    }
 
    .shop-btn {
-
+     background-color: white;
+     color: #6B686C;
+     padding: 14px 20px;
+     margin: 8px 0;
+     border: 1px solid #6B686C;
+     cursor: pointer;
+     width: 10px 20px;
    }
 
    /* End Global Classes */
@@ -125,9 +141,10 @@ textarea {
 
    h1, h2, h3, h4, h5, h6 {
      font-family: 'Pacifico', cursive;
+     text-align: center;
    }
 
-   p, a, table {
+   p, a, table, form {
      font-family: 'Nunito', sans-serif;
    }
 
@@ -144,13 +161,32 @@ textarea {
    }
 
    a {
-
+     color: #6B686C;
+     text-decoration: none;
    }
 
    p {
-
+     text-align: center;
    }
 
+   ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     background-color: white;
+     display: flex;
+   }
+
+   li a {
+     display: block;
+     text-align: center;
+     padding: 16px;
+     text-decoration: none;
+   }
+
+   .fa {
+
+   }
    /* End Common Rules */
 
    /* Start Header Style */
@@ -188,12 +224,19 @@ textarea {
    /* End Footer Style */
 
    /* Start Index Main Style */
+   .intro {
+     text-align: center;
+   }
    .presentation {
-
+     width: 50%;
+     margin: auto;
+     padding: 2em;
    }
 
    .bestsellers-section {
-
+     width: 50%;
+     margin: auto;
+     padding: 1em;
    }
 
    .bestsellers {
@@ -201,11 +244,16 @@ textarea {
    }
 
    .article-section {
+     width: 100%;
 
    }
 
    .main-article {
-
+     text-align: justify;
+     padding: 1em;
+     display: block;
+     margin: auto;
+     width: 80%
    }
 
    /* End Index Main Style */
@@ -235,14 +283,17 @@ textarea {
 
    /* Start Contact Main Style */
    .contact-form {
-
+     width: 50%;
+     margin: auto;
    }
 
    .map-directions {
-
+     margin: auto;
    }
 
    .map {
+     margin: auto;
+     display: block;
 
    }
    /* End Contact Main Style */
@@ -295,15 +346,18 @@ textarea {
 
    /* Start Prices Main Style */
    .tab {
-
+     display: block;
+     justify-content: center;
    }
 
    table, th, td {
-
+     border: 1px solid black;
+     border-collapse: collapse;
+     padding: .5em;
    }
 
    .cta {
-
+     text-align: center;
    }
 
    /* End Prices Main Style */
