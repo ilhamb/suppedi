@@ -30,7 +30,7 @@
   <header>
     <h1>Suppedi</h1>
   <!-- Navigation Bar -->
-    <nav>
+    <nav class="headnav">
       <ul>
         <li>
           <div class="responsivenav">
@@ -49,8 +49,8 @@
         <li>
           <div class="search-container">
             <form action="/action_page.php">
-              <input type="text" placeholder="Search.." name="search">
-              <button type="submit"><i class="fa fa-search"></i></button>
+              <input type="text" placeholder="" name="search">
+              <button class="search-btn" type="submit"><i class="fa fa-search"></i></button>
             </form>
           </div>
         </li>
@@ -62,8 +62,7 @@
         </li>
       </ul>
     </nav>
-</header>
-
+  </header>
   <!--
   ********** End Header **********
   -->
@@ -72,7 +71,19 @@
   ********** Start Main **********
   -->
   <main>
-
+    <section class="login-form">
+      <h2>Se Connecter</h2>
+        <form action="/action_page.php">
+          <label for="uname"><b>Nom d'utilisateur</b></label>
+            <input class="login" type="text" placeholder="" name="uname" required>
+          <label for="psw"><b>Mot de passe</b></label>
+            <input class="login" type="password" placeholder="" name="psw" required>
+          <button button class="send-btn" type="submit">Se connecter</button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Se souvenir</label>
+        </form>
+      <span class="psw"><a href="#">Mot de passe oublié ?</a></span>
+    </section>
   </main>
   <!--
   ********** End Main **********
@@ -82,16 +93,18 @@
   ********** Start Footer **********
   -->
   <footer>
-  <!-- Social Network Links -->
-    <ul>
-      <li><a href ="https://facebook.com" class="fa" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-      <li><a href ="https://instagram.com" class="fa" target="_blank"><i class="fab fa-instagram"></i></a></li>
-      <li><a href ="https://pinterest.com" class="fa" target="_blank"><i class="fab fa-pinterest"></i></a></li>
-      <li><a href ="https://youtube.com" class="fa" target="_blank"><i class="fab fa-youtube"></i></a></li>
-      <li><a href ="https://twitter.com" class="fa" target="_blank"><i class="fab fa-twitter"></i></a></li>
-    </ul>
+  <!-- Social Network Links -->`
+    <div class="socialmedia-icons">
+      <ul>
+        <li><a href ="https://facebook.com" class="fa" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a href ="https://instagram.com" class="fa" target="_blank"><i class="fab fa-instagram"></i></a></li>
+        <li><a href ="https://pinterest.com" class="fa" target="_blank"><i class="fab fa-pinterest"></i></a></li>
+        <li><a href ="https://youtube.com" class="fa" target="_blank"><i class="fab fa-youtube"></i></a></li>
+        <li><a href ="https://twitter.com" class="fa" target="_blank"><i class="fab fa-twitter"></i></a></li>
+      </ul>
+    </div>
   <!-- Reglementations Links -->
-    <nav>
+    <nav class="footnav">
       <ul>
         <li><a href="#">Mentions légales</a></li>
         <li><a href="#">Conditions générales d'utilisation</a></li>

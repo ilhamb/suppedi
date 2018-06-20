@@ -30,7 +30,7 @@
   <header>
     <h1>Suppedi</h1>
   <!-- Navigation Bar -->
-    <nav>
+    <nav class="headnav">
       <ul>
         <li>
           <div class="responsivenav">
@@ -49,8 +49,8 @@
         <li>
           <div class="search-container">
             <form action="/action_page.php">
-              <input type="text" placeholder="Search.." name="search">
-              <button type="submit"><i class="fa fa-search"></i></button>
+              <input type="text" placeholder="" name="search">
+              <button class="search-btn" type="submit"><i class="fa fa-search"></i></button>
             </form>
           </div>
         </li>
@@ -62,8 +62,7 @@
         </li>
       </ul>
     </nav>
-</header>
-
+  </header>
   <!--
   ********** End Header **********
   -->
@@ -72,7 +71,24 @@
   ********** Start Main **********
   -->
   <main>
-
+    <section class="about-text">
+      <h2>L'équipe Suppedi</h2>
+      <p>L'équipe Suppedi est instalée au sein de la Coopérative de La Cape à Roubaix.<br> Nos bureaux sont au sein de la Condition Publique, lieu d'innovation culturelle et entrepreunariale.</p>
+    </section>
+    <section class="about-img">
+      <h2>Nos derniers événements</h2>
+        <div class="equipe-img">
+          <img src="img/equipe1.jpg" alt="equipe coop la cape Suppedi">
+          <img src="img/equipe2.jpg" alt="equipe coop la cape Suppedi">
+          <img src="img/equipe3.jpg" alt="equipe coop la cape Suppedi">
+        </div>
+    </section>
+    <section class="about-video">
+      <h2>La Coopérative</h2>
+      <div class="equipe-video"
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/TK7u7TDwETI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
+    </section>
   </main>
   <!--
   ********** End Main **********
@@ -82,16 +98,18 @@
   ********** Start Footer **********
   -->
   <footer>
-  <!-- Social Network Links -->
-    <ul>
-      <li><a href ="https://facebook.com" class="fa" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-      <li><a href ="https://instagram.com" class="fa" target="_blank"><i class="fab fa-instagram"></i></a></li>
-      <li><a href ="https://pinterest.com" class="fa" target="_blank"><i class="fab fa-pinterest"></i></a></li>
-      <li><a href ="https://youtube.com" class="fa" target="_blank"><i class="fab fa-youtube"></i></a></li>
-      <li><a href ="https://twitter.com" class="fa" target="_blank"><i class="fab fa-twitter"></i></a></li>
-    </ul>
+  <!-- Social Network Links -->`
+    <div class="socialmedia-icons">
+      <ul>
+        <li><a href ="https://facebook.com" class="fa" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a href ="https://instagram.com" class="fa" target="_blank"><i class="fab fa-instagram"></i></a></li>
+        <li><a href ="https://pinterest.com" class="fa" target="_blank"><i class="fab fa-pinterest"></i></a></li>
+        <li><a href ="https://youtube.com" class="fa" target="_blank"><i class="fab fa-youtube"></i></a></li>
+        <li><a href ="https://twitter.com" class="fa" target="_blank"><i class="fab fa-twitter"></i></a></li>
+      </ul>
+    </div>
   <!-- Reglementations Links -->
-    <nav>
+    <nav class="footnav">
       <ul>
         <li><a href="#">Mentions légales</a></li>
         <li><a href="#">Conditions générales d'utilisation</a></li>

@@ -97,56 +97,235 @@ textarea {
    Author's custom styles
    ========================================================================== */
    /* Start Global Classes */
+   .search-container {
+
+   }
+
+   .search-btn {
+
+   }
+
+   .login {
+
+   }
+
+   .shop-btn {
+
+   }
 
    /* End Global Classes */
 
    /* Start Common Rules*/
    body {
      background-image: url("../img/backgroundimg.jpg");
+     background-color: #fa9d8e;
      background-repeat: no-repeat;
-     background-size: cover;
+     background-size: 100%;
    }
 
-   h1, h2 {
+   h1, h2, h3, h4, h5, h6 {
      font-family: 'Pacifico', cursive;
    }
 
-   h3, p, a {
+   p, a, table {
      font-family: 'Nunito', sans-serif;
    }
+
+   h1 {
+     text-align: center;
+   }
+
+   h2 {
+     text-align: center;
+   }
+
+   h3 {
+
+   }
+
+   a {
+
+   }
+
+   p {
+
+   }
+
    /* End Common Rules */
 
    /* Start Header Style */
+   .headnav {
+
+   }
+
+   .responsivenav {
+
+   }
+
+   .dropbtn {
+
+   }
+
+   #responsivebar {
+
+   }
+
+   .responsivemenu {
+
+   }
 
    /* End Header Style */
 
    /* Start Footer Style */
+   .socialmedia-icons {
+
+   }
+
+   .footnav {
+
+   }
 
    /* End Footer Style */
 
    /* Start Index Main Style */
+   .presentation {
+
+   }
+
+   .bestsellers-section {
+
+   }
+
+   .bestsellers {
+
+   }
+
+   .article-section {
+
+   }
+
+   .main-article {
+
+   }
 
    /* End Index Main Style */
 
    /* Start About Main Style */
+   .about-text {
+
+   }
+
+   .about-img {
+
+   }
+
+   .equipe-img {
+
+   }
+
+   .about-video {
+
+   }
+
+   .equipe-video {
+
+   }
 
    /* End About Main Style */
 
-   /* Start Admin Main Style */
-
-   /* End Admin Main Style */
-
-   /* Start Article Main Style */
-
-   /* End Article Main Style */
-
    /* Start Contact Main Style */
+   .contact-form {
 
+   }
+
+   .map-directions {
+
+   }
+
+   .map {
+
+   }
    /* End Contact Main Style */
 
+   /* Start Products Main Style */
+   .product-listing {
+
+   }
+
+   .productsresult {
+
+   }
+
+   .product {
+
+   }
+
+   .nextpage {
+
+   }
+
+   /* End Products Main Style */
+
+   /* Start Shop Main Style */
+   .product-shop {
+
+   }
+
+   .product-name {
+
+   }
+
+   .product-image {
+
+   }
+
+   .product-info {
+
+   }
+
+   .product-price {
+
+   }
+
+   .product-desc {
+
+   }
+
+   /* End Shop Main Style */
+
+   /* Start Prices Main Style */
+   .tab {
+
+   }
+
+   table, th, td {
+
+   }
+
+   .cta {
+
+   }
+
+   /* End Prices Main Style */
+
    /* Start Login Main Style */
+   .login-form {
+
+   }
 
    /* End Login Main Style */
+
+   /* Start Cart Main Style */
+
+   /* End Cart Main Style */
+
+   @media all and (min-width: 640px) {
+
+   }
+
+   @media all and (min-width: 640px) {
+
+   }
 /* ==========================================================================
    Helper classes
    ========================================================================== */

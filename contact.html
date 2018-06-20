@@ -30,7 +30,7 @@
   <header>
     <h1>Suppedi</h1>
   <!-- Navigation Bar -->
-    <nav>
+    <nav class="headnav">
       <ul>
         <li>
           <div class="responsivenav">
@@ -50,7 +50,7 @@
           <div class="search-container">
             <form action="/action_page.php">
               <input type="text" placeholder="Search.." name="search">
-              <button type="submit"><i class="fa fa-search"></i></button>
+              <button class="search-btn" type="submit"><i class="fa fa-search"></i></button>
             </form>
           </div>
         </li>
@@ -62,8 +62,7 @@
         </li>
       </ul>
     </nav>
-</header>
-
+  </header>
   <!--
   ********** End Header **********
   -->
@@ -72,7 +71,32 @@
   ********** Start Main **********
   -->
   <main>
-
+    <section class="contact-form">
+      <h2>Contact</h2>
+      <form action="/action_page.php">
+        <label for="name">Nom</label>
+          <input class="login" type="text" name="firstname" placeholder="myname">
+        <label for="email">E-mail</label>
+          <input class="login"type="email" name="email" placeholder="me@example.com">
+        <label for="subject">Sujet</label>
+        <select name="subject">
+          <option value="devis">Devis</option>
+          <option value="info">Infos</option>
+          <option value="commande">Commande</option>
+          <option value="autre">Autre</option>
+        </select>
+        <label for="message">Message</label>
+            <textarea class="login" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        <button class="send-btn" type="submit">Envoyer</button>
+      </form>
+    </section>
+    <section class="map-directions">
+      <h3>Venez nous rencontrer !</h3>
+      <p>Métro: Roubaix Eurotéléport <br>Arrêt de bus: Condition Publique (Liane 4, Bus 33)</p>
+      <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2527.57369245324!2d3.1872980510039426!3d50.690737679408734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c32890e53d8af5%3A0xec7218a25a535097!2sLa+Condition+Publique!5e0!3m2!1sfr!2sfr!4v1529450052721" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+    </section>
   </main>
   <!--
   ********** End Main **********
@@ -82,16 +106,18 @@
   ********** Start Footer **********
   -->
   <footer>
-  <!-- Social Network Links -->
-    <ul>
-      <li><a href ="https://facebook.com" class="fa" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-      <li><a href ="https://instagram.com" class="fa" target="_blank"><i class="fab fa-instagram"></i></a></li>
-      <li><a href ="https://pinterest.com" class="fa" target="_blank"><i class="fab fa-pinterest"></i></a></li>
-      <li><a href ="https://youtube.com" class="fa" target="_blank"><i class="fab fa-youtube"></i></a></li>
-      <li><a href ="https://twitter.com" class="fa" target="_blank"><i class="fab fa-twitter"></i></a></li>
-    </ul>
+  <!-- Social Network Links -->`
+    <div class="socialmedia-icons">
+      <ul>
+        <li><a href ="https://facebook.com" class="fa" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a href ="https://instagram.com" class="fa" target="_blank"><i class="fab fa-instagram"></i></a></li>
+        <li><a href ="https://pinterest.com" class="fa" target="_blank"><i class="fab fa-pinterest"></i></a></li>
+        <li><a href ="https://youtube.com" class="fa" target="_blank"><i class="fab fa-youtube"></i></a></li>
+        <li><a href ="https://twitter.com" class="fa" target="_blank"><i class="fab fa-twitter"></i></a></li>
+      </ul>
+    </div>
   <!-- Reglementations Links -->
-    <nav>
+    <nav class="footnav">
       <ul>
         <li><a href="#">Mentions légales</a></li>
         <li><a href="#">Conditions générales d'utilisation</a></li>
